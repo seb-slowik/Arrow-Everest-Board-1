@@ -1,6 +1,7 @@
-#Arrow Everest Board ES = MPF300T_ES-1FCG1152I
+#Hardware     : Arrow Everest Board (rev A or rev B)
+#MIV Cores    : MIV_RV32IMAF_L1_AHB
+#
 #Libero's TCL top level script
-# Core: MIV_RV32IMAF_L1_AHB
 #
 #This Tcl file sources other Tcl files to build the design(on which recursive export is run) in a bottom-up fashion
 
