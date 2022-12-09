@@ -3,7 +3,7 @@ set design_flow_stage [string toupper [lindex $argv 1]]
 set die_variant [string toupper [lindex $argv 2]]
 
 set hw_platform PF_Everest
-set soft_cpu MIV_RV32
+set soft_cpu MIV_RV32IMAF
 set sd_reference BaseDesign
 
 #
