@@ -16,6 +16,7 @@
 set_io -port_name {REF_CLK}  \
     -pin_name T9               \
     -fixed true                 \
+    -io_std LVCMOS33        \
     -DIRECTION INPUT
 
 # -- User I/O -- #
