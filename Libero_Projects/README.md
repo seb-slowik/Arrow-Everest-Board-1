@@ -15,15 +15,15 @@ This folder contains Tcl scripts that build Libero SoC v2023.1 design projects f
 
 | Config  | Description |
 | :------:|:------------|
-| CFG1    |This design uses the MIV_RV32IMA_L1_AHB core with an **AHB** interface for memory and peripherals|
-| CFG2    |This design uses the MIV_RV32IMA_L1_AXI core with an **AXI3** interface for memory and peripherals|
+| CFG1    |This design uses the MIV_RV32IMA_L1_AHB core with an **AHB** interface for memory and peripherals. <li>An example program is stored in the LSRAM to boot out the box|
+| CFG2    |This design uses the MIV_RV32IMA_L1_AXI core with an **AXI3** interface for memory and peripherals. <li>An example program is stored in the LSRAM to boot out the box|
 
 
 #### PF_Everest_MIV_RV32IMAF_BaseDesign
 
 | Config  |Description |
 | :------:|:-----------|
-| CFG1    |  This design uses the MIV_RV32IMAF_L1_AHB core with an **AHB** interface for memory and peripherals|
+| CFG1    |  This design uses the MIV_RV32IMAF_L1_AHB core with an **AHB** interface for memory and peripherals. <li>An example program is stored in the LSRAM to boot out the box|
 
 
 ## <a name="quick"></a> Instructions
