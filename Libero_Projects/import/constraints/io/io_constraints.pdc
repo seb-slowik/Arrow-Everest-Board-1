@@ -10,16 +10,24 @@
 # User Locked I/O settings
 # 
 
+# -- Clock (50MHz) -- #
+# GPIO219PB4/CLKIN_W_3/CCC_SW_CLKIN_W_3
 
-# -- User PushButtons I/O -- #
+set_io -port_name {REF_CLK}  \
+    -pin_name T9               \
+    -fixed true                 \
+    -io_std LVCMOS33        \
+    -DIRECTION INPUT
 
-set_io -port_name {PUSH_BTN_1}  \
+# -- User I/O -- #
+
+set_io -port_name {SW_1}  \
     -pin_name T4                \
     -fixed true                  \
     -io_std LVCMOS33        \
     -DIRECTION INPUT
 
-set_io -port_name {PUSH_BTN_2}  \
+set_io -port_name {SW_2}  \
     -pin_name Y8                 \
     -fixed true                  \
     -io_std LVCMOS33        \
